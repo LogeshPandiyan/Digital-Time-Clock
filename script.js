@@ -24,6 +24,7 @@ function updateClock() {
     document.getElementById('date').textContent = `${dayName}, ${month} ${day}, ${year}`;
 }
 
+
 // Update the clock every second
 setInterval(updateClock, 1000);
 
